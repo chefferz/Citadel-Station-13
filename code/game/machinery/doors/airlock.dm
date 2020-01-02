@@ -39,13 +39,13 @@
 
 #define NOT_ELECTRIFIED 0
 #define ELECTRIFIED_PERMANENT -1
-#define AI_ELECTRIFY_DOOR_TIME 30
+#define AI_ELECTRIFY_DOOR_TIME 31
 
 /obj/machinery/door/airlock
 	name = "airlock"
 	icon = 'icons/obj/doors/airlocks/station/public.dmi'
 	icon_state = "closed"
-	max_integrity = 300
+	max_integrity = 6000000
 	var/normal_integrity = AIRLOCK_INTEGRITY_N
 	integrity_failure = 70
 	damage_deflection = AIRLOCK_DAMAGE_DEFLECTION_N
